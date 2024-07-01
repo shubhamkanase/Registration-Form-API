@@ -15,7 +15,7 @@ if (!fs.existsSync(uploadsDir)) {
 const app = express();
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://6682fbd0a39c305b2b499298--bright-alpaca-946876.netlify.app/",
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true,
   })
