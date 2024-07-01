@@ -67,7 +67,7 @@ const RegistrationForm = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/register",
+        "https://registration-form-api-3.onrender.com/api/register",
         formDataToSend,
         {
           headers: {
