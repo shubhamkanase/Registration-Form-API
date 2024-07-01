@@ -1,0 +1,17 @@
+
+.success-container {
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(18, 252, 18);
+}
+
+.home-link {
+    display: block;
+    margin-top: 20px;
+    color: #ffff00;
+    text-decoration: none;
+}
+
+.home-link:hover {
+    text-decoration: underline;
+}
